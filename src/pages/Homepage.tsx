@@ -1,4 +1,10 @@
-import { Hero, Navbar } from "../components/homepage";
+import {
+  Features,
+  Hero,
+  Integration,
+  Navbar,
+  TrustedBy,
+} from "../components/homepage";
 
 export const Homepage = () => {
   return (
@@ -11,6 +17,9 @@ export const Homepage = () => {
       >
         <Navbar />
         <Hero />
+        <TrustedBy />
+        <Features />
+        <Integration />
       </header>
 
       <div className="space h-96"></div>

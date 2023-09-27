@@ -1,7 +1,8 @@
 import { Container } from "../general";
 import { Button } from "../general/Button";
-import BulletCheck from "../../../public/assets/bullet-check.svg";
-import Dashboard from "../../../public/assets/Dashboard.svg";
+import BulletCheck from "/assets/bullet-check.svg";
+import Dashboard from "/assets/Dashboard.svg";
+import Envelope from "/assets/icons/envelope.svg";
 
 export const Hero = () => {
   const BULLETPOINTS = [
@@ -9,6 +10,7 @@ export const Hero = () => {
     "No hidden Fees",
     "4.9/5 TRUSTPILOT",
   ];
+
   return (
     <div className="relative pb-[80px]">
       <Container className="text-center">
@@ -29,8 +31,11 @@ export const Hero = () => {
 
         <form className="my-[59px] rounded-md p-[6px] max-w-[508px] w-full border border-gray500 mx-auto flex items-center">
           <div className="flex items-center h-full flex-1 px-3 gap-3">
-            <label htmlFor="work-email" className="h-6 w-6">
-              oo
+            <label
+              htmlFor="work-email"
+              className="h-6 w-6 grid place-content-center"
+            >
+              <img src={Envelope} alt="..." />
             </label>
 
             <input

@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Container } from "../general";
-import Logo from "../../../public/assets/InvoiceWise.svg";
+import Logo from "/assets/InvoiceWise.svg";
 import { Button } from "../general/Button";
 
 export const Navbar = () => {
